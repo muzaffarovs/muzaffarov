@@ -35,7 +35,7 @@ const SiteHeader = () => {
           href="/"
           className="my-0 sm:text-2xl text-xl font-extrabold text-gray-500 dark:text-gray-300"
         >
-          Rajab's Blog
+          Rajab&apos;s Blog
         </Link>
         <Button
           aria-label="Toggle theme"

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://muzaffarov.uz
+
+# Sitemaps
+Sitemap: https://muzaffarov.uz/sitemap.xml
