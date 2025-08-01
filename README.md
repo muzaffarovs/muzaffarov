@@ -1,3 +1,7 @@
+## Credits
+
+Portions of this project’s design and user experience were inspired by [Diyorbek’s personal blog](https://www.diyorbek.blog/). All credit for the original concept and visual inspiration goes to the original author.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
