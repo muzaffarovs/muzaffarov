@@ -54,6 +54,8 @@ const Home = () => {
           </Link>
         ))}
       </div>
+
+      <div className="ezoic-ad" data-ez-name="homepage_hero" />
     </main>
   );
 };
