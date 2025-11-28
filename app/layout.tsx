@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./themeProvider";
+import Script from "next/script";
 import SiteHeader from "@/components/site-header";
 
 const geistSans = Geist({
@@ -67,14 +68,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
+        <Script
           src="https://cmp.gatekeeperconsent.com/min.js"
+          strategy="afterInteractive"
           data-cfasync="false"
-        ></script>
-        <script
+        />
+
+        <Script
           src="https://the.gatekeeperconsent.com/cmp.min.js"
+          strategy="afterInteractive"
           data-cfasync="false"
-        ></script>
+        />
+
         <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
         <script>
           window.ezstandalone = window.ezstandalone || {}; ezstandalone.cmd =
